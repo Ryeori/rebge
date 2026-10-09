@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru"><meta charset="utf-8"><title>REBGE — позы Sally</title>
+<style>
+body{margin:0;background:#10151e;color:#e7ecf7;font:15px system-ui}header{padding:18px 24px;background:#192131}h1{font-size:20px;margin:0 0 10px}select,button{padding:8px;background:#263248;color:white;border:1px solid #53637e;border-radius:5px}label{margin-right:16px}canvas{display:block;width:100%;height:68vh;touch-action:none}#status,#note{padding:10px 24px}#note{color:#b9c5d9}#status{font-family:monospace}p{margin:8px 0}
+</style>
+<header><h1>Мировые позы Sally · диагностический просмотр</h1>
+<label>Ресурс <select id="clip"></select></label><label><input id="complete" type="checkbox" checked> Только полные каналы</label>
+<label><input id="axes" type="checkbox"> Оси объектов</label><button id="reset">Сбросить вид</button>
+<p>Перетаскивание — поворот. Колесо — масштаб. Точки — начала координат объектов; линии — родители.</p></header>
+<canvas id="view"></canvas><div id="status">Загрузка…</div>
+<div id="note">Это снимки в середине анимационных ресурсов, с единичной матрицей персонажа и отключённым преобразованием перемещения корня. Здесь показана иерархия GAO; модель, skinning и совпадение с игровой позой ещё не проверены.</div>
+<script>
+const canvas=document.querySelector('#view'),ctx=canvas.getContext('2d'),select=document.querySelector('#clip'),status=document.querySelector('#status');
+let data=[],pose,yaw=.65,pitch=.25,zoom=1,drag=null;
+const point=m=>[m[12],m[14],-m[13]];
+function choose(){pose=data.find(s=>s.resource_key===select.value);draw()}
+function options(){const old=select.value;select.replaceChildren();for(const s of data){if(document.querySelector('#complete').checked&&!s.complete_local_snapshot)continue;const o=document.createElement('option');o.value=s.resource_key;o.textContent=s.resource_key+(s.complete_local_snapshot?'':' · частично');select.append(o)}if([...select.options].some(o=>o.value===old))select.value=old;choose()}
+function draw(){const w=canvas.clientWidth,h=canvas.clientHeight;canvas.width=w*devicePixelRatio;canvas.height=h*devicePixelRatio;ctx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0);ctx.clearRect(0,0,w,h);if(!pose)return;
+const mats=pose.jade_world_matrices,points=Object.values(mats).map(point);const lo=[0,1,2].map(i=>Math.min(...points.map(p=>p[i]))),hi=[0,1,2].map(i=>Math.max(...points.map(p=>p[i])));const center=lo.map((v,i)=>(v+hi[i])/2),size=Math.max(...hi.map((v,i)=>v-lo[i]),.1),scale=Math.min(w,h)*.65/size*zoom;
+function project(p){let[x,y,z]=p.map((v,i)=>v-center[i]);let a=x*Math.cos(yaw)-z*Math.sin(yaw),b=x*Math.sin(yaw)+z*Math.cos(yaw);return[w/2+a*scale,h/2-(y*Math.cos(pitch)-b*Math.sin(pitch))*scale]}
+function line(a,b,color){ctx.strokeStyle=color;ctx.beginPath();ctx.moveTo(...project(a));ctx.lineTo(...project(b));ctx.stroke()}
+ctx.lineWidth=1.5;for(const o of pose.objects){const m=mats[o.key],p=point(m);const parent=o.clone_parent?mats[o.clone_parent]:pose.actor_destination_matrix;if(parent)line(p,point(parent),'#526584');if(document.querySelector('#axes').checked){for(let a=0;a<3;a++){const q=m.slice();q[12]+=m[a*4]*size*.035;q[13]+=m[a*4+1]*size*.035;q[14]+=m[a*4+2]*size*.035;line(p,point(q),['#f0777b','#73d99c','#77aaff'][a])}}const s=project(p);ctx.fillStyle=o.clone_parent?'#67d4c8':'#ffcc74';ctx.beginPath();ctx.arc(...s,3,0,2*Math.PI);ctx.fill()}
+status.textContent=`${pose.resource_key} · t=${pose.elapsed_seconds.toFixed(3)} с · ${pose.objects.length} объектов · применено ${pose.applied_tracks.length} дорожек · пропущено ${pose.unsupported_tracks.length}`;
+}
+select.onchange=choose;document.querySelector('#complete').onchange=options;document.querySelector('#axes').onchange=draw;document.querySelector('#reset').onclick=()=>{yaw=.65;pitch=.25;zoom=1;draw()};window.onresize=draw;
+canvas.onpointerdown=e=>{drag=[e.clientX,e.clientY];canvas.setPointerCapture(e.pointerId)};canvas.onpointerup=()=>drag=null;canvas.onpointercancel=()=>drag=null;canvas.onpointermove=e=>{if(!drag)return;yaw+=(e.clientX-drag[0])*.008;pitch=Math.max(-1.5,Math.min(1.5,pitch+(e.clientY-drag[1])*.008));drag=[e.clientX,e.clientY];draw()};canvas.onwheel=e=>{e.preventDefault();zoom=Math.max(.2,Math.min(8,zoom*Math.exp(-e.deltaY*.001)));draw()};
+fetch('/assets/stage4-sally-attached-world-snapshots.json').then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{data=d.snapshots;options()}).catch(e=>status.textContent='Ошибка загрузки: '+e.message);
+</script></html>

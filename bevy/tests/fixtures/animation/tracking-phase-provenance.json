@@ -1,0 +1,602 @@
+{
+  "source": "reports\\jade\\stage43-tracking-sequence-20261008-184552.json",
+  "sha256": "050c00357ae8fa729715e3f83a07d5d72eb5d002682bc4f6f39a1f27f1ca0bbc",
+  "pairs": [
+    {
+      "first": 0,
+      "second": 1
+    },
+    {
+      "first": 1,
+      "second": 2
+    },
+    {
+      "first": 2,
+      "second": 3
+    },
+    {
+      "first": 6,
+      "second": 7
+    },
+    {
+      "first": 7,
+      "second": 8
+    },
+    {
+      "first": 8,
+      "second": 9
+    },
+    {
+      "first": 9,
+      "second": 10
+    },
+    {
+      "first": 13,
+      "second": 14
+    },
+    {
+      "first": 14,
+      "second": 15
+    },
+    {
+      "first": 15,
+      "second": 16
+    },
+    {
+      "first": 16,
+      "second": 17
+    },
+    {
+      "first": 20,
+      "second": 21
+    },
+    {
+      "first": 21,
+      "second": 22
+    },
+    {
+      "first": 22,
+      "second": 23
+    },
+    {
+      "first": 23,
+      "second": 24
+    },
+    {
+      "first": 27,
+      "second": 28
+    },
+    {
+      "first": 28,
+      "second": 29
+    },
+    {
+      "first": 29,
+      "second": 30
+    },
+    {
+      "first": 32,
+      "second": 33
+    },
+    {
+      "first": 33,
+      "second": 34
+    },
+    {
+      "first": 34,
+      "second": 35
+    },
+    {
+      "first": 35,
+      "second": 36
+    },
+    {
+      "first": 40,
+      "second": 41
+    },
+    {
+      "first": 41,
+      "second": 42
+    },
+    {
+      "first": 42,
+      "second": 43
+    },
+    {
+      "first": 43,
+      "second": 44
+    },
+    {
+      "first": 44,
+      "second": 45
+    },
+    {
+      "first": 48,
+      "second": 49
+    },
+    {
+      "first": 49,
+      "second": 50
+    },
+    {
+      "first": 50,
+      "second": 51
+    },
+    {
+      "first": 51,
+      "second": 52
+    },
+    {
+      "first": 54,
+      "second": 55
+    },
+    {
+      "first": 55,
+      "second": 56
+    },
+    {
+      "first": 56,
+      "second": 57
+    },
+    {
+      "first": 57,
+      "second": 58
+    },
+    {
+      "first": 63,
+      "second": 64
+    },
+    {
+      "first": 64,
+      "second": 65
+    },
+    {
+      "first": 65,
+      "second": 66
+    },
+    {
+      "first": 66,
+      "second": 67
+    },
+    {
+      "first": 68,
+      "second": 69
+    },
+    {
+      "first": 69,
+      "second": 70
+    },
+    {
+      "first": 70,
+      "second": 71
+    },
+    {
+      "first": 71,
+      "second": 72
+    },
+    {
+      "first": 74,
+      "second": 75
+    },
+    {
+      "first": 75,
+      "second": 76
+    },
+    {
+      "first": 76,
+      "second": 77
+    },
+    {
+      "first": 77,
+      "second": 78
+    },
+    {
+      "first": 82,
+      "second": 83
+    },
+    {
+      "first": 83,
+      "second": 84
+    },
+    {
+      "first": 84,
+      "second": 85
+    },
+    {
+      "first": 85,
+      "second": 86
+    },
+    {
+      "first": 86,
+      "second": 87
+    },
+    {
+      "first": 89,
+      "second": 90
+    },
+    {
+      "first": 90,
+      "second": 91
+    },
+    {
+      "first": 91,
+      "second": 92
+    },
+    {
+      "first": 92,
+      "second": 93
+    },
+    {
+      "first": 98,
+      "second": 99
+    },
+    {
+      "first": 99,
+      "second": 100
+    },
+    {
+      "first": 100,
+      "second": 101
+    },
+    {
+      "first": 101,
+      "second": 102
+    },
+    {
+      "first": 104,
+      "second": 105
+    },
+    {
+      "first": 105,
+      "second": 106
+    },
+    {
+      "first": 106,
+      "second": 107
+    },
+    {
+      "first": 107,
+      "second": 108
+    },
+    {
+      "first": 111,
+      "second": 112
+    },
+    {
+      "first": 112,
+      "second": 113
+    },
+    {
+      "first": 113,
+      "second": 114
+    },
+    {
+      "first": 119,
+      "second": 120
+    },
+    {
+      "first": 120,
+      "second": 121
+    },
+    {
+      "first": 121,
+      "second": 122
+    },
+    {
+      "first": 125,
+      "second": 126
+    },
+    {
+      "first": 126,
+      "second": 127
+    },
+    {
+      "first": 127,
+      "second": 128
+    },
+    {
+      "first": 128,
+      "second": 129
+    },
+    {
+      "first": 132,
+      "second": 133
+    },
+    {
+      "first": 133,
+      "second": 134
+    },
+    {
+      "first": 134,
+      "second": 135
+    },
+    {
+      "first": 138,
+      "second": 139
+    },
+    {
+      "first": 139,
+      "second": 140
+    },
+    {
+      "first": 140,
+      "second": 141
+    },
+    {
+      "first": 141,
+      "second": 142
+    },
+    {
+      "first": 143,
+      "second": 144
+    },
+    {
+      "first": 146,
+      "second": 147
+    },
+    {
+      "first": 147,
+      "second": 148
+    },
+    {
+      "first": 150,
+      "second": 151
+    },
+    {
+      "first": 151,
+      "second": 152
+    },
+    {
+      "first": 152,
+      "second": 153
+    },
+    {
+      "first": 153,
+      "second": 154
+    },
+    {
+      "first": 154,
+      "second": 155
+    },
+    {
+      "first": 157,
+      "second": 158
+    },
+    {
+      "first": 158,
+      "second": 159
+    },
+    {
+      "first": 159,
+      "second": 160
+    },
+    {
+      "first": 160,
+      "second": 161
+    },
+    {
+      "first": 163,
+      "second": 164
+    },
+    {
+      "first": 164,
+      "second": 165
+    },
+    {
+      "first": 165,
+      "second": 166
+    },
+    {
+      "first": 169,
+      "second": 170
+    },
+    {
+      "first": 170,
+      "second": 171
+    },
+    {
+      "first": 174,
+      "second": 175
+    },
+    {
+      "first": 175,
+      "second": 176
+    },
+    {
+      "first": 176,
+      "second": 177
+    },
+    {
+      "first": 180,
+      "second": 181
+    },
+    {
+      "first": 181,
+      "second": 182
+    },
+    {
+      "first": 182,
+      "second": 183
+    },
+    {
+      "first": 183,
+      "second": 184
+    },
+    {
+      "first": 186,
+      "second": 187
+    },
+    {
+      "first": 187,
+      "second": 188
+    },
+    {
+      "first": 188,
+      "second": 189
+    },
+    {
+      "first": 189,
+      "second": 190
+    },
+    {
+      "first": 190,
+      "second": 191
+    },
+    {
+      "first": 193,
+      "second": 194
+    },
+    {
+      "first": 194,
+      "second": 195
+    },
+    {
+      "first": 195,
+      "second": 196
+    },
+    {
+      "first": 196,
+      "second": 197
+    },
+    {
+      "first": 197,
+      "second": 198
+    },
+    {
+      "first": 201,
+      "second": 202
+    },
+    {
+      "first": 202,
+      "second": 203
+    },
+    {
+      "first": 203,
+      "second": 204
+    },
+    {
+      "first": 204,
+      "second": 205
+    },
+    {
+      "first": 207,
+      "second": 208
+    },
+    {
+      "first": 211,
+      "second": 212
+    },
+    {
+      "first": 212,
+      "second": 213
+    },
+    {
+      "first": 213,
+      "second": 214
+    },
+    {
+      "first": 216,
+      "second": 217
+    },
+    {
+      "first": 217,
+      "second": 218
+    },
+    {
+      "first": 218,
+      "second": 219
+    },
+    {
+      "first": 222,
+      "second": 223
+    },
+    {
+      "first": 223,
+      "second": 224
+    },
+    {
+      "first": 224,
+      "second": 225
+    },
+    {
+      "first": 225,
+      "second": 226
+    },
+    {
+      "first": 228,
+      "second": 229
+    },
+    {
+      "first": 229,
+      "second": 230
+    },
+    {
+      "first": 230,
+      "second": 231
+    },
+    {
+      "first": 233,
+      "second": 234
+    },
+    {
+      "first": 234,
+      "second": 235
+    },
+    {
+      "first": 235,
+      "second": 236
+    },
+    {
+      "first": 236,
+      "second": 237
+    },
+    {
+      "first": 237,
+      "second": 238
+    },
+    {
+      "first": 238,
+      "second": 239
+    },
+    {
+      "first": 241,
+      "second": 242
+    },
+    {
+      "first": 242,
+      "second": 243
+    },
+    {
+      "first": 243,
+      "second": 244
+    },
+    {
+      "first": 244,
+      "second": 245
+    },
+    {
+      "first": 245,
+      "second": 246
+    },
+    {
+      "first": 249,
+      "second": 250
+    },
+    {
+      "first": 250,
+      "second": 251
+    },
+    {
+      "first": 251,
+      "second": 252
+    },
+    {
+      "first": 252,
+      "second": 253
+    }
+  ],
+  "limits": [
+    "AF counter only; strength and writer execution not validated.",
+    "Adjacent samples are not atomic callback input captures."
+  ]
+}

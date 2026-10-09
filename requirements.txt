@@ -1,0 +1,6 @@
+# Python 3.10+; dependencies for original asset readers/exporters.
+# Rust runtime dependencies are declared in bevy/Cargo.toml and Cargo.lock.
+# Runtime-pack export/check uses only the Python standard library.
+# Live automation has separate dependencies; see docs/TESTING.md.
+lz4==4.4.5
+Pillow>=10

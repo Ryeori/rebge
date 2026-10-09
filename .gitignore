@@ -1,0 +1,33 @@
+.dependencies/
+__pycache__/
+.venv/
+target/
+# Supplied legacy binaries and local third-party reference sources.
+OLD_TEST/
+jade-reference-*.cs
+# Private project data: stored locally, never included in source publication.
+assets/
+asset-packs/
+# Independent native fixtures, captures and raw analysis are local dependencies.
+reports/
+ghidra/
+references/
+# Installed third-party automation/audio packages; scripts stay in tools/.
+tools/game-automation/python/
+tools/game-automation/universal-modder/
+tools/game-automation/installers/
+tools/audio/vgmstream/
+tools/audio/wwiser/source.zip
+tools/audio/wwiser/wwiser-master/
+*.log
+*.dmp
+*.tmp
+reports/ghidra/raw/
+reports/bevy/captures/
+ghidra/project/
+tools/installers/
+assets-extracted/
+decompiled/
+.cache/
+# Local session handoff; not part of the source repository.
+docs/HANDOFF.md

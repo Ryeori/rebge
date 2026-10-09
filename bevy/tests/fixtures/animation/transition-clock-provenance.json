@@ -1,0 +1,134 @@
+{
+  "source_record": "reports\\jade\\stage43-tracking-sequence-20261008-183132.json",
+  "sha256": "04b91a41acddd343aaeee5d7b30a73f9a9c69a3202867a3d44efa23d0cfa0089",
+  "pairs": [
+    {
+      "first": 19,
+      "second": 20
+    },
+    {
+      "first": 20,
+      "second": 21
+    },
+    {
+      "first": 23,
+      "second": 24
+    },
+    {
+      "first": 24,
+      "second": 25
+    },
+    {
+      "first": 25,
+      "second": 26
+    },
+    {
+      "first": 26,
+      "second": 27
+    },
+    {
+      "first": 30,
+      "second": 31
+    },
+    {
+      "first": 31,
+      "second": 32
+    },
+    {
+      "first": 32,
+      "second": 33
+    },
+    {
+      "first": 181,
+      "second": 182
+    },
+    {
+      "first": 182,
+      "second": 183
+    },
+    {
+      "first": 183,
+      "second": 184
+    },
+    {
+      "first": 184,
+      "second": 185
+    },
+    {
+      "first": 187,
+      "second": 188
+    },
+    {
+      "first": 188,
+      "second": 189
+    },
+    {
+      "first": 189,
+      "second": 190
+    },
+    {
+      "first": 190,
+      "second": 191
+    },
+    {
+      "first": 191,
+      "second": 192
+    },
+    {
+      "first": 195,
+      "second": 196
+    },
+    {
+      "first": 196,
+      "second": 197
+    },
+    {
+      "first": 197,
+      "second": 198
+    },
+    {
+      "first": 201,
+      "second": 202
+    },
+    {
+      "first": 202,
+      "second": 203
+    },
+    {
+      "first": 203,
+      "second": 204
+    },
+    {
+      "first": 207,
+      "second": 208
+    },
+    {
+      "first": 208,
+      "second": 209
+    },
+    {
+      "first": 209,
+      "second": 210
+    },
+    {
+      "first": 210,
+      "second": 211
+    },
+    {
+      "first": 214,
+      "second": 215
+    },
+    {
+      "first": 215,
+      "second": 216
+    },
+    {
+      "first": 216,
+      "second": 217
+    }
+  ],
+  "limitations": [
+    "Uses captured global delta, not proven native call argument.",
+    "Adjacent pass counters do not establish callback-entry atomicity."
+  ]
+}

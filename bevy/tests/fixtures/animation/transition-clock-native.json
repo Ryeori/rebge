@@ -1,0 +1,250 @@
+[
+  {
+    "duration_byte": 10,
+    "elapsed_before": 0,
+    "delta_seconds": 0.0164794921875,
+    "actual_active": true,
+    "actual_counter": 253,
+    "actual_ratio": 0.08988814055919647
+  },
+  {
+    "duration_byte": 10,
+    "elapsed_before": 253,
+    "delta_seconds": 0.016693115234375,
+    "actual_active": true,
+    "actual_counter": 509,
+    "actual_ratio": 0.18089711666107178
+  },
+  {
+    "duration_byte": 10,
+    "elapsed_before": 765,
+    "delta_seconds": 0.01666259765625,
+    "actual_active": true,
+    "actual_counter": 1020,
+    "actual_ratio": 0.362548828125
+  },
+  {
+    "duration_byte": 10,
+    "elapsed_before": 1020,
+    "delta_seconds": 0.016693115234375,
+    "actual_active": true,
+    "actual_counter": 1276,
+    "actual_ratio": 0.45326924324035645
+  },
+  {
+    "duration_byte": 10,
+    "elapsed_before": 1276,
+    "delta_seconds": 0.0167236328125,
+    "actual_active": true,
+    "actual_counter": 1532,
+    "actual_ratio": 0.5443447828292847
+  },
+  {
+    "duration_byte": 10,
+    "elapsed_before": 1532,
+    "delta_seconds": 0.0166015625,
+    "actual_active": true,
+    "actual_counter": 1787,
+    "actual_ratio": 0.6345880627632141
+  },
+  {
+    "duration_byte": 10,
+    "elapsed_before": 2299,
+    "delta_seconds": 0.0166015625,
+    "actual_active": true,
+    "actual_counter": 2554,
+    "actual_ratio": 0.9069601893424988
+  },
+  {
+    "duration_byte": 10,
+    "elapsed_before": 2554,
+    "delta_seconds": 0.016693115234375,
+    "actual_active": true,
+    "actual_counter": 2810,
+    "actual_ratio": 0.9980135560035706
+  },
+  {
+    "duration_byte": 10,
+    "elapsed_before": 2810,
+    "delta_seconds": 0.0167236328125,
+    "actual_active": false,
+    "actual_counter": 2810,
+    "actual_ratio": 0.9980135560035706
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 0,
+    "delta_seconds": 0.016571044921875,
+    "actual_active": true,
+    "actual_counter": 254,
+    "actual_ratio": 0.1104736253619194
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 254,
+    "delta_seconds": 0.016693115234375,
+    "actual_active": true,
+    "actual_counter": 510,
+    "actual_ratio": 0.221530482172966
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 510,
+    "delta_seconds": 0.016632080078125,
+    "actual_active": true,
+    "actual_counter": 765,
+    "actual_ratio": 0.3322346806526184
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 765,
+    "delta_seconds": 0.016693115234375,
+    "actual_active": true,
+    "actual_counter": 1021,
+    "actual_ratio": 0.4433186650276184
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 1278,
+    "delta_seconds": 0.016632080078125,
+    "actual_active": true,
+    "actual_counter": 1533,
+    "actual_ratio": 0.6655679941177368
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 1533,
+    "delta_seconds": 0.01666259765625,
+    "actual_active": true,
+    "actual_counter": 1788,
+    "actual_ratio": 0.7764484882354736
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 1788,
+    "delta_seconds": 0.0167236328125,
+    "actual_active": true,
+    "actual_counter": 2044,
+    "actual_ratio": 0.8875324726104736
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 2044,
+    "delta_seconds": 0.016632080078125,
+    "actual_active": true,
+    "actual_counter": 2299,
+    "actual_ratio": 0.9980332255363464
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 2299,
+    "delta_seconds": 0.016754150390625,
+    "actual_active": false,
+    "actual_counter": 2299,
+    "actual_ratio": 0.9980332255363464
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 256,
+    "delta_seconds": 0.016693115234375,
+    "actual_active": true,
+    "actual_counter": 512,
+    "actual_ratio": 0.2223985344171524
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 512,
+    "delta_seconds": 0.01666259765625,
+    "actual_active": true,
+    "actual_counter": 767,
+    "actual_ratio": 0.3333061933517456
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 767,
+    "delta_seconds": 0.0166015625,
+    "actual_active": true,
+    "actual_counter": 1022,
+    "actual_ratio": 0.4435763657093048
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 1536,
+    "delta_seconds": 0.0166015625,
+    "actual_active": true,
+    "actual_counter": 1791,
+    "actual_ratio": 0.77734375
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 1791,
+    "delta_seconds": 0.0167236328125,
+    "actual_active": true,
+    "actual_counter": 2047,
+    "actual_ratio": 0.888834536075592
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 2047,
+    "delta_seconds": 0.0166015625,
+    "actual_active": true,
+    "actual_counter": 2302,
+    "actual_ratio": 0.9991318583488464
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 255,
+    "delta_seconds": 0.016632080078125,
+    "actual_active": true,
+    "actual_counter": 510,
+    "actual_ratio": 0.2215576022863388
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 510,
+    "delta_seconds": 0.016754150390625,
+    "actual_active": true,
+    "actual_counter": 767,
+    "actual_ratio": 0.3330484926700592
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 767,
+    "delta_seconds": 0.016632080078125,
+    "actual_active": true,
+    "actual_counter": 1022,
+    "actual_ratio": 0.4437797963619232
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 1022,
+    "delta_seconds": 0.016754150390625,
+    "actual_active": true,
+    "actual_counter": 1279,
+    "actual_ratio": 0.5552706718444824
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 1790,
+    "delta_seconds": 0.016693115234375,
+    "actual_active": true,
+    "actual_counter": 2046,
+    "actual_ratio": 0.8881971836090088
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 2046,
+    "delta_seconds": 0.016571044921875,
+    "actual_active": true,
+    "actual_counter": 2300,
+    "actual_ratio": 0.9984943866729736
+  },
+  {
+    "duration_byte": 8,
+    "elapsed_before": 2300,
+    "delta_seconds": 0.01727294921875,
+    "actual_active": false,
+    "actual_counter": 2300,
+    "actual_ratio": 0.9984943866729736
+  }
+]

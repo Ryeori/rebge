@@ -1,0 +1,3500 @@
+{
+  "schema": "rebge-movement-suite-v1",
+  "sample_hz": 100,
+  "rules": [
+    "One case per scene readiness; no unattended terrain-dependent batch.",
+    "Reset camera and facing, neutral >=1.2s; validate actual native idle before input.",
+    "Three independent repeats; add near-boundary probes only for measured disagreements.",
+    "Original source units; no claim of collision parity in open-ground tests."
+  ],
+  "cases": [
+    {
+      "id": "strength_0.10",
+      "category": "input_threshold",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.91,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": 0,
+          "y": 0.1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.0,
+          "x": 0,
+          "y": 0.1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "movement onset",
+        "selected gait",
+        "input normalization",
+        "neutral recovery"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "strength_0.14",
+      "category": "input_threshold",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.91,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": 0,
+          "y": 0.14,
+          "r2": 0.0
+        },
+        {
+          "t": 1.0,
+          "x": 0,
+          "y": 0.14,
+          "r2": 0.0
+        },
+        {
+          "t": 1.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "movement onset",
+        "selected gait",
+        "input normalization",
+        "neutral recovery"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "strength_0.16",
+      "category": "input_threshold",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.91,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": 0,
+          "y": 0.16,
+          "r2": 0.0
+        },
+        {
+          "t": 1.0,
+          "x": 0,
+          "y": 0.16,
+          "r2": 0.0
+        },
+        {
+          "t": 1.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "movement onset",
+        "selected gait",
+        "input normalization",
+        "neutral recovery"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "strength_0.20",
+      "category": "input_threshold",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.91,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": 0,
+          "y": 0.2,
+          "r2": 0.0
+        },
+        {
+          "t": 1.0,
+          "x": 0,
+          "y": 0.2,
+          "r2": 0.0
+        },
+        {
+          "t": 1.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "movement onset",
+        "selected gait",
+        "input normalization",
+        "neutral recovery"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "strength_0.25",
+      "category": "input_threshold",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.91,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": 0,
+          "y": 0.25,
+          "r2": 0.0
+        },
+        {
+          "t": 1.0,
+          "x": 0,
+          "y": 0.25,
+          "r2": 0.0
+        },
+        {
+          "t": 1.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "movement onset",
+        "selected gait",
+        "input normalization",
+        "neutral recovery"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "strength_0.30",
+      "category": "input_threshold",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.91,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": 0,
+          "y": 0.3,
+          "r2": 0.0
+        },
+        {
+          "t": 1.0,
+          "x": 0,
+          "y": 0.3,
+          "r2": 0.0
+        },
+        {
+          "t": 1.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "movement onset",
+        "selected gait",
+        "input normalization",
+        "neutral recovery"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "strength_0.35",
+      "category": "input_threshold",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.91,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": 0,
+          "y": 0.35,
+          "r2": 0.0
+        },
+        {
+          "t": 1.0,
+          "x": 0,
+          "y": 0.35,
+          "r2": 0.0
+        },
+        {
+          "t": 1.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "movement onset",
+        "selected gait",
+        "input normalization",
+        "neutral recovery"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "strength_0.50",
+      "category": "input_threshold",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.91,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": 0,
+          "y": 0.5,
+          "r2": 0.0
+        },
+        {
+          "t": 1.0,
+          "x": 0,
+          "y": 0.5,
+          "r2": 0.0
+        },
+        {
+          "t": 1.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "movement onset",
+        "selected gait",
+        "input normalization",
+        "neutral recovery"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "strength_0.65",
+      "category": "input_threshold",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.91,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": 0,
+          "y": 0.65,
+          "r2": 0.0
+        },
+        {
+          "t": 1.0,
+          "x": 0,
+          "y": 0.65,
+          "r2": 0.0
+        },
+        {
+          "t": 1.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "movement onset",
+        "selected gait",
+        "input normalization",
+        "neutral recovery"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "strength_1.00",
+      "category": "input_threshold",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.91,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": 0,
+          "y": 1.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.0,
+          "x": 0,
+          "y": 1.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "movement onset",
+        "selected gait",
+        "input normalization",
+        "neutral recovery"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "start_rise_0.00",
+      "category": "start",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.21,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.05,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.06,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.3,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.31,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "idle/slow/start/walk chain",
+        "time to stable speed",
+        "actor acceleration"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "start_rise_0.10",
+      "category": "start",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.31,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.05,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.4,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.41,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "idle/slow/start/walk chain",
+        "time to stable speed",
+        "actor acceleration"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "start_rise_0.20",
+      "category": "start",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.41,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.05,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.25,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.5,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.51,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "idle/slow/start/walk chain",
+        "time to stable speed",
+        "actor acceleration"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "start_rise_0.35",
+      "category": "start",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.56,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.05,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.4,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.65,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.66,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "idle/slow/start/walk chain",
+        "time to stable speed",
+        "actor acceleration"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "start_rise_0.70",
+      "category": "start",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.91,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.05,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.75,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 2.0,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 2.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "idle/slow/start/walk chain",
+        "time to stable speed",
+        "actor acceleration"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_left_rise_0.00",
+      "category": "standing_turn",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_right_rest",
+      "repetitions": 3,
+      "duration": 1.11,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.05,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.06,
+          "x": -1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.2,
+          "x": -1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.21,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "116/117 selection",
+        "completion after release",
+        "final heading",
+        "idle blend continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_right_rise_0.00",
+      "category": "standing_turn",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.11,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.05,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.06,
+          "x": 1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.2,
+          "x": 1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.21,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "116/117 selection",
+        "completion after release",
+        "final heading",
+        "idle blend continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_left_rise_0.10",
+      "category": "standing_turn",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_right_rest",
+      "repetitions": 3,
+      "duration": 1.21,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.05,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": -1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.3,
+          "x": -1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.31,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "116/117 selection",
+        "completion after release",
+        "final heading",
+        "idle blend continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_right_rise_0.10",
+      "category": "standing_turn",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.21,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.05,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": 1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.3,
+          "x": 1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.31,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "116/117 selection",
+        "completion after release",
+        "final heading",
+        "idle blend continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_left_rise_0.20",
+      "category": "standing_turn",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_right_rest",
+      "repetitions": 3,
+      "duration": 1.31,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.05,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.25,
+          "x": -1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.4,
+          "x": -1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.41,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "116/117 selection",
+        "completion after release",
+        "final heading",
+        "idle blend continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_right_rise_0.20",
+      "category": "standing_turn",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.31,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.05,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.25,
+          "x": 1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.4,
+          "x": 1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.41,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "116/117 selection",
+        "completion after release",
+        "final heading",
+        "idle blend continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_left_rise_0.35",
+      "category": "standing_turn",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_right_rest",
+      "repetitions": 3,
+      "duration": 1.46,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.05,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.4,
+          "x": -1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.55,
+          "x": -1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.56,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "116/117 selection",
+        "completion after release",
+        "final heading",
+        "idle blend continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_right_rise_0.35",
+      "category": "standing_turn",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.46,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.05,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.4,
+          "x": 1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.55,
+          "x": 1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.56,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "116/117 selection",
+        "completion after release",
+        "final heading",
+        "idle blend continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_left_rise_0.70",
+      "category": "standing_turn",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_right_rest",
+      "repetitions": 3,
+      "duration": 1.81,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.05,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.75,
+          "x": -1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.9,
+          "x": -1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.91,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "116/117 selection",
+        "completion after release",
+        "final heading",
+        "idle blend continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_right_rise_0.70",
+      "category": "standing_turn",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.81,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.05,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.75,
+          "x": 1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.9,
+          "x": 1.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.91,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "116/117 selection",
+        "completion after release",
+        "final heading",
+        "idle blend continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_release_0.05",
+      "category": "standing_release",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 0.97,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.06,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.07,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "release during entry/body/exit",
+        "turn completion",
+        "outgoing terminal pose"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_release_0.12",
+      "category": "standing_release",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.04,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.13,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.14,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "release during entry/body/exit",
+        "turn completion",
+        "outgoing terminal pose"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_release_0.25",
+      "category": "standing_release",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.17,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.26,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.27,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "release during entry/body/exit",
+        "turn completion",
+        "outgoing terminal pose"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_release_0.35",
+      "category": "standing_release",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.27,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.36,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.37,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "release during entry/body/exit",
+        "turn completion",
+        "outgoing terminal pose"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_release_0.50",
+      "category": "standing_release",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.42,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.51,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.52,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "release during entry/body/exit",
+        "turn completion",
+        "outgoing terminal pose"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "standing_release_0.75",
+      "category": "standing_release",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.67,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.76,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.77,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "release during entry/body/exit",
+        "turn completion",
+        "outgoing terminal pose"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "angle_45_cw",
+      "category": "turn_angle",
+      "priority": 2,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.46,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": -0.7071067811865476,
+          "y": -0.7071067811865476,
+          "r2": 0.0
+        },
+        {
+          "t": 0.55,
+          "x": -0.7071067811865476,
+          "y": -0.7071067811865476,
+          "r2": 0.0
+        },
+        {
+          "t": 0.56,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "standing turn angle gate",
+        "turn side",
+        "heading error"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "angle_45_ccw",
+      "category": "turn_angle",
+      "priority": 2,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.46,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": -0.7071067811865476,
+          "y": 0.7071067811865476,
+          "r2": 0.0
+        },
+        {
+          "t": 0.55,
+          "x": -0.7071067811865476,
+          "y": 0.7071067811865476,
+          "r2": 0.0
+        },
+        {
+          "t": 0.56,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "standing turn angle gate",
+        "turn side",
+        "heading error"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "angle_90_cw",
+      "category": "turn_angle",
+      "priority": 2,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.46,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": -6.123233995736766e-17,
+          "y": -1.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.55,
+          "x": -6.123233995736766e-17,
+          "y": -1.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.56,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "standing turn angle gate",
+        "turn side",
+        "heading error"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "angle_90_ccw",
+      "category": "turn_angle",
+      "priority": 2,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.46,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": -6.123233995736766e-17,
+          "y": 1.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.55,
+          "x": -6.123233995736766e-17,
+          "y": 1.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.56,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "standing turn angle gate",
+        "turn side",
+        "heading error"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "angle_120_cw",
+      "category": "turn_angle",
+      "priority": 2,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.46,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0.4999999999999998,
+          "y": -0.8660254037844387,
+          "r2": 0.0
+        },
+        {
+          "t": 0.55,
+          "x": 0.4999999999999998,
+          "y": -0.8660254037844387,
+          "r2": 0.0
+        },
+        {
+          "t": 0.56,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "standing turn angle gate",
+        "turn side",
+        "heading error"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "angle_120_ccw",
+      "category": "turn_angle",
+      "priority": 2,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.46,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0.4999999999999998,
+          "y": 0.8660254037844387,
+          "r2": 0.0
+        },
+        {
+          "t": 0.55,
+          "x": 0.4999999999999998,
+          "y": 0.8660254037844387,
+          "r2": 0.0
+        },
+        {
+          "t": 0.56,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "standing turn angle gate",
+        "turn side",
+        "heading error"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "angle_150_cw",
+      "category": "turn_angle",
+      "priority": 2,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.46,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0.8660254037844387,
+          "y": -0.49999999999999994,
+          "r2": 0.0
+        },
+        {
+          "t": 0.55,
+          "x": 0.8660254037844387,
+          "y": -0.49999999999999994,
+          "r2": 0.0
+        },
+        {
+          "t": 0.56,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "standing turn angle gate",
+        "turn side",
+        "heading error"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "angle_150_ccw",
+      "category": "turn_angle",
+      "priority": 2,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.46,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0.8660254037844387,
+          "y": 0.49999999999999994,
+          "r2": 0.0
+        },
+        {
+          "t": 0.55,
+          "x": 0.8660254037844387,
+          "y": 0.49999999999999994,
+          "r2": 0.0
+        },
+        {
+          "t": 0.56,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "standing turn angle gate",
+        "turn side",
+        "heading error"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "angle_170_cw",
+      "category": "turn_angle",
+      "priority": 2,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.46,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0.984807753012208,
+          "y": -0.17364817766693028,
+          "r2": 0.0
+        },
+        {
+          "t": 0.55,
+          "x": 0.984807753012208,
+          "y": -0.17364817766693028,
+          "r2": 0.0
+        },
+        {
+          "t": 0.56,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "standing turn angle gate",
+        "turn side",
+        "heading error"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "angle_170_ccw",
+      "category": "turn_angle",
+      "priority": 2,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.46,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0.984807753012208,
+          "y": 0.17364817766693028,
+          "r2": 0.0
+        },
+        {
+          "t": 0.55,
+          "x": 0.984807753012208,
+          "y": 0.17364817766693028,
+          "r2": 0.0
+        },
+        {
+          "t": 0.56,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "standing turn angle gate",
+        "turn side",
+        "heading error"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "angle_180_cw",
+      "category": "turn_angle",
+      "priority": 2,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.46,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 1.0,
+          "y": -1.2246467991473532e-16,
+          "r2": 0.0
+        },
+        {
+          "t": 0.55,
+          "x": 1.0,
+          "y": -1.2246467991473532e-16,
+          "r2": 0.0
+        },
+        {
+          "t": 0.56,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "standing turn angle gate",
+        "turn side",
+        "heading error"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "angle_180_ccw",
+      "category": "turn_angle",
+      "priority": 2,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.46,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 1.0,
+          "y": 1.2246467991473532e-16,
+          "r2": 0.0
+        },
+        {
+          "t": 0.55,
+          "x": 1.0,
+          "y": 1.2246467991473532e-16,
+          "r2": 0.0
+        },
+        {
+          "t": 0.56,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "standing turn angle gate",
+        "turn side",
+        "heading error"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "walk_stop",
+      "category": "gait",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.21,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.3,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.31,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "action/phase chain",
+        "speed byte",
+        "actor speed profile",
+        "pose discontinuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "run_stop",
+      "category": "gait",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.91,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 2.0,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 2.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "action/phase chain",
+        "speed byte",
+        "actor speed profile",
+        "pose discontinuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "run_to_walk",
+      "category": "gait",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 3.01,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.3,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.31,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 2.1,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 2.11,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "action/phase chain",
+        "speed byte",
+        "actor speed profile",
+        "pose discontinuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "walk_to_run",
+      "category": "gait",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.71,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.8,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.81,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.8,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.81,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "action/phase chain",
+        "speed byte",
+        "actor speed profile",
+        "pose discontinuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "run_held_start",
+      "category": "gait",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.71,
+      "points": [
+        {
+          "t": 0,
+          "x": 0,
+          "y": 0,
+          "r2": 1
+        },
+        {
+          "t": 0.35,
+          "x": 0,
+          "y": 0,
+          "r2": 1
+        },
+        {
+          "t": 0.36,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.8,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.81,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "action/phase chain",
+        "speed byte",
+        "actor speed profile",
+        "pose discontinuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "run_reverse_0.50",
+      "category": "run_reverse",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 3.23,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 0.51,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 0.52,
+          "x": 0,
+          "y": -1,
+          "r2": 1
+        },
+        {
+          "t": 2.32,
+          "x": 0,
+          "y": -1,
+          "r2": 1
+        },
+        {
+          "t": 2.33,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "79 A/B then80 then2",
+        "post-turn acceleration",
+        "backward model displacement",
+        "incoming blend"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "run_reverse_1.30",
+      "category": "run_reverse",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 4.03,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.31,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.32,
+          "x": 0,
+          "y": -1,
+          "r2": 1
+        },
+        {
+          "t": 3.12,
+          "x": 0,
+          "y": -1,
+          "r2": 1
+        },
+        {
+          "t": 3.13,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "79 A/B then80 then2",
+        "post-turn acceleration",
+        "backward model displacement",
+        "incoming blend"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "run_reverse_2.80",
+      "category": "run_reverse",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 5.53,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 2.81,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 2.82,
+          "x": 0,
+          "y": -1,
+          "r2": 1
+        },
+        {
+          "t": 4.62,
+          "x": 0,
+          "y": -1,
+          "r2": 1
+        },
+        {
+          "t": 4.63,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "79 A/B then80 then2",
+        "post-turn acceleration",
+        "backward model displacement",
+        "incoming blend"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "walk_reverse_short_0.10",
+      "category": "walk_reverse",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.37,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": -1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.25,
+          "x": -1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.26,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.46,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.47,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "actual speed10D4 and action before reversal",
+        "minimal no-shift acceleration before79 versus standing116",
+        "opposite delivery and current facing gate",
+        "blend/pending timing",
+        "old-direction inertia and neutral recovery"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "walk_reverse_short_0.20",
+      "category": "walk_reverse",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.47,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": -1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.35,
+          "x": -1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.36,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.56,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.57,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "actual speed10D4 and action before reversal",
+        "minimal no-shift acceleration before79 versus standing116",
+        "opposite delivery and current facing gate",
+        "blend/pending timing",
+        "old-direction inertia and neutral recovery"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "walk_reverse_short_0.30",
+      "category": "walk_reverse",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.57,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": -1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.45,
+          "x": -1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.46,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.66,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.67,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "actual speed10D4 and action before reversal",
+        "minimal no-shift acceleration before79 versus standing116",
+        "opposite delivery and current facing gate",
+        "blend/pending timing",
+        "old-direction inertia and neutral recovery"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "walk_reverse_short_0.45",
+      "category": "walk_reverse",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.72,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": -1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.6,
+          "x": -1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.61,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.81,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.82,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "actual speed10D4 and action before reversal",
+        "minimal no-shift acceleration before79 versus standing116",
+        "opposite delivery and current facing gate",
+        "blend/pending timing",
+        "old-direction inertia and neutral recovery"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "walk_reverse_steady_no_shift",
+      "category": "walk_reverse",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 4.07,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.15,
+          "x": -1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.65,
+          "x": -1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.66,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 3.16,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 3.17,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "qualified steady action3 before opposite input",
+        "reverse onset and79 A/B then80 then3",
+        "old-direction displacement after opposite input",
+        "raw norm and filtered direction",
+        "mode34 and speed10D4",
+        "velocity flags and source blend",
+        "post-turn walking acceleration"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "reentry_gap_0.05",
+      "category": "stop_reentry",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.26,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.61,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.62,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.67,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.68,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.35,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.36,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "stop interruption",
+        "idle versus waiting path",
+        "queued target",
+        "speed continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "reentry_gap_0.15",
+      "category": "stop_reentry",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.36,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.61,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.62,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.77,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.78,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.45,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.46,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "stop interruption",
+        "idle versus waiting path",
+        "queued target",
+        "speed continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "reentry_gap_0.30",
+      "category": "stop_reentry",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.51,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.61,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.62,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.92,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.93,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.6,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.61,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "stop interruption",
+        "idle versus waiting path",
+        "queued target",
+        "speed continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "reentry_gap_0.70",
+      "category": "stop_reentry",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.91,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.61,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.62,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.32,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.33,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 2.0,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 2.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "stop interruption",
+        "idle versus waiting path",
+        "queued target",
+        "speed continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "reentry_gap_1.60",
+      "category": "stop_reentry",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 3.81,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.61,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.62,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 2.22,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 2.23,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 2.9,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 2.91,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "stop interruption",
+        "idle versus waiting path",
+        "queued target",
+        "speed continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "reentry_gap_2.20",
+      "category": "stop_reentry",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 4.41,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.61,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.62,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 2.82,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 2.83,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 3.5,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 3.51,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "stop interruption",
+        "idle versus waiting path",
+        "queued target",
+        "speed continuity"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "turn_redirect_0.08",
+      "category": "interrupt",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.71,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.09,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.1,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.8,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.81,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "direction change during turn",
+        "queued movement",
+        "completion or interruption"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "turn_redirect_0.20",
+      "category": "interrupt",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.71,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.21,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.22,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.8,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.81,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "direction change during turn",
+        "queued movement",
+        "completion or interruption"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "turn_redirect_0.35",
+      "category": "interrupt",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.71,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.36,
+          "x": 1,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.37,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.8,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 0.81,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "direction change during turn",
+        "queued movement",
+        "completion or interruption"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "release_rebound_0.05",
+      "category": "noise",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.1,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.0,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.04,
+          "x": 0,
+          "y": -0.05,
+          "r2": 0.0
+        },
+        {
+          "t": 1.1,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.14,
+          "x": 0,
+          "y": -0.05,
+          "r2": 0.0
+        },
+        {
+          "t": 1.2,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "false reverse on release",
+        "deadzone",
+        "neutral stability"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "release_rebound_0.10",
+      "category": "noise",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.1,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.0,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.04,
+          "x": 0,
+          "y": -0.1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.1,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.14,
+          "x": 0,
+          "y": -0.1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.2,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "false reverse on release",
+        "deadzone",
+        "neutral stability"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "release_rebound_0.14",
+      "category": "noise",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.1,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.0,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.04,
+          "x": 0,
+          "y": -0.14,
+          "r2": 0.0
+        },
+        {
+          "t": 1.1,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.14,
+          "x": 0,
+          "y": -0.14,
+          "r2": 0.0
+        },
+        {
+          "t": 1.2,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "false reverse on release",
+        "deadzone",
+        "neutral stability"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "release_rebound_0.16",
+      "category": "noise",
+      "priority": 1,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.1,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.0,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.04,
+          "x": 0,
+          "y": -0.16,
+          "r2": 0.0
+        },
+        {
+          "t": 1.1,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 1.14,
+          "x": 0,
+          "y": -0.16,
+          "r2": 0.0
+        },
+        {
+          "t": 1.2,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "false reverse on release",
+        "deadzone",
+        "neutral stability"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "wall_head_on",
+      "category": "collision",
+      "priority": 3,
+      "terrain": "wall_prepared",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.41,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.5,
+          "x": 0,
+          "y": 1,
+          "r2": 1
+        },
+        {
+          "t": 1.51,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "blocked actor movement",
+        "slow animation against wall",
+        "sliding"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "wall_oblique",
+      "category": "collision",
+      "priority": 3,
+      "terrain": "wall_prepared",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 2.41,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0.707106,
+          "y": 0.707106,
+          "r2": 1
+        },
+        {
+          "t": 1.5,
+          "x": 0.707106,
+          "y": 0.707106,
+          "r2": 1
+        },
+        {
+          "t": 1.51,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "blocked actor movement",
+        "slow animation against wall",
+        "sliding"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "camera_relative_forward",
+      "category": "camera",
+      "priority": 3,
+      "terrain": "flat_open",
+      "setup": "face_left_rest",
+      "repetitions": 3,
+      "duration": 1.91,
+      "points": [
+        {
+          "t": 0,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        },
+        {
+          "t": 0.01,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.0,
+          "x": 0,
+          "y": 1,
+          "r2": 0.0
+        },
+        {
+          "t": 1.01,
+          "x": 0.0,
+          "y": 0.0,
+          "r2": 0.0
+        }
+      ],
+      "checks": [
+        "movement basis after manual camera rotation"
+      ],
+      "status": "pending"
+    }
+  ]
+}
